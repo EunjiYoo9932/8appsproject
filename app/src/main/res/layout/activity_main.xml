@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/isel1"
+            android:src="@drawable/isel1"
+            android:layout_width="130dp"
+            android:layout_height="150dp"/>
+        <ImageView
+            android:id="@+id/isel2"
+            android:src="@drawable/isel2"
+            android:layout_width="130dp"
+            android:layout_height="150dp"/>
+        <ImageView
+            android:id="@+id/isel3"
+            android:src="@drawable/isel3"
+            android:layout_width="130dp"
+            android:layout_height="150dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/isel4"
+            android:src="@drawable/isel4"
+            android:layout_width="130dp"
+            android:layout_height="150dp"/>
+        <ImageView
+            android:id="@+id/isel5"
+            android:src="@drawable/isel5"
+            android:layout_width="130dp"
+            android:layout_height="150dp"/>
+
+        <ImageView
+            android:id="@+id/isel6"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:src="@drawable/isel6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/isel7"
+            android:src="@drawable/isel7"
+            android:layout_width="130dp"
+            android:layout_height="150dp"/>
+        <ImageView
+            android:id="@+id/isel8"
+            android:src="@drawable/isel8"
+            android:layout_width="130dp"
+            android:layout_height="150dp"/>
+        <ImageView
+            android:id="@+id/isel9"
+            android:src="@drawable/isel9"
+            android:layout_width="130dp"
+            android:layout_height="150dp"/>
+    </LinearLayout>
+</LinearLayout>
